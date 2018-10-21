@@ -26,7 +26,7 @@ if(message.content === prefix + "help"){
     .setFooter("Menu")
     message.channel.sendMessage(help_embed);
     console.log("Commande help utilisé")
-});
+};
 
 
 bot.on('message', function (message){
